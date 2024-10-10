@@ -51,22 +51,27 @@
 }
 
 .hero__btn {
-  width: 12%;
+  width: 150px;
   border: 1px solid black;
-  padding: 10px 15px 10px 15px;
+  padding: 10px 3px 10px 3px;
   border-radius: 8px;
   margin-top: 20px;
   background-color: black;
+  cursor: pointer;
 }
 .hero__btn .hero__btn--contact {
   background-color: black;
   color: #fff;
   border: none;
   text-align: center;
-  width: 100%;
+  width: 150px;
   font-size: 18px;
   font-weight: 500;
   cursor: pointer;
+}
+.hero__btn--contact a {
+  text-decoration: none;
+  color: white;
 }
 /*------------- End of hero section------------ */
 
