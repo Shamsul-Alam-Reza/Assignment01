@@ -156,6 +156,7 @@
 }
 
 .inspiration__video {
+  margin-top: 20px;
   padding: 30px;
   border: 1px solid #0d132133;
   border-radius: 15px;
@@ -279,4 +280,11 @@ footer {
 .footer__items li {
   list-style: none;
   padding-left: 10px;
+}
+
+.devlopment__title,
+.inspiration__title,
+.current-target_title {
+  font-size: 35px;
+  font-weight: 700;
 }
