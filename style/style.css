@@ -64,6 +64,9 @@
   border: none;
   text-align: center;
   width: 100%;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
 }
 /*------------- End of hero section------------ */
 
