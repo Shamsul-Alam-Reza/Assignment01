@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
+
 * {
   margin: 0px;
   padding: 0px;
@@ -12,16 +14,19 @@
   padding: 12px;
 }
 .menu .menu__btn {
-  width: 12%;
+  width: 170px;
   border: 1px solid black;
   padding: 10px 15px 10px 15px;
   border-radius: 8px;
+  cursor: pointer;
 }
 .menu__btn .menu__btn--download {
   background-color: #fff;
   border: none;
   padding-left: 10px;
   font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
 }
 
 /* -------------End of Header--------------- */
@@ -41,9 +46,10 @@
   gap: 15px;
 }
 .hero__title {
-  font-size: 50px;
-  width: 50%;
+  font-size: 44px;
+  width: 65%;
   text-align: center;
+  font-family: Azeret Mono;
 }
 .hero__description {
   color: #0d1321b3;
@@ -95,10 +101,15 @@
 .current-target_discription {
   text-align: center;
   padding: 20px;
+  font-family: Azeret Mono;
 }
 .devlopment__description {
   color: #0d1321b3;
   font-size: 18px;
+  font-family: Azeret Mono;
+  line-height: 1.5;
+  width: 78%;
+  margin: 0 auto;
 }
 .devlopment__item-one {
   width: 80%;
@@ -176,8 +187,13 @@
 .inspiration__discription {
   font-size: 18px;
   color: #0d1321b3;
+  width: 80%;
+  margin: 0 auto;
+  line-height: 1.5;
 }
-
+.inspiration__title {
+  font-family: Azeret Mono;
+}
 /* -------Current Target------- */
 
 .current-target {
@@ -197,9 +213,17 @@
   line-height: 2;
   border-radius: 10px;
 }
+
+.current-target_title {
+  font-family: Azeret Mono;
+}
 .current-target_discription {
   color: #0d1321b3;
   font-size: 18px;
+  font-family: Azeret Mono;
+  line-height: 1.5;
+  width: 80%;
+  margin: 0 auto;
 }
 .current-target__box--one h1 {
   font-weight: 800;
